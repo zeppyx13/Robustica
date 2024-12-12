@@ -10,7 +10,7 @@ function Navbar() {
         <img
           src="../../../public/Logo/logo-no-background.png" // Ganti dengan URL/logo lokal
           alt="Robustica Logo"
-          className="h-12 w-12"
+          className="h-20 w-20"
         />
       </div>
 
