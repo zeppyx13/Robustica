@@ -13,7 +13,7 @@ export default {
         "coklat-tua": "#3d3333",
         "coklat-normal": "#503C3C",
         "coklat-muda": "#7E6363",
-        "bg-coklat": "#	#141514",
+        "bg-coklat": "#141514",
       },
     },
   },
