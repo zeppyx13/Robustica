@@ -4,7 +4,7 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between px-8 py-4 bg-white border-b border-gray-200 rounded">
+    <nav className="flex items-center justify-between px-8 py-4 bg-white border-b border-gray-200 rounded poppins-semibold">
       {/* Logo */}
       <div className="flex items-center">
         <img
@@ -48,7 +48,7 @@ function Navbar() {
 
       {/* Navigation Links for Desktop */}
       <ul
-        className={`hidden lg:flex space-y-4 lg:space-y-0 lg:space-x-8 text-sm font-semibold`}
+        className={`hidden lg:flex space-y-4 lg:space-y-0 lg:space-x-8 text-md font-semibold`}
       >
         <li>
           <a
