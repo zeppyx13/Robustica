@@ -165,7 +165,7 @@ const Home = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-gray-900">
-                      Best beans quality
+                      Premium beans quality
                     </h3>
                     <p className="text-gray-600 text-sm">
                       We source the best quality beans from around the world to
