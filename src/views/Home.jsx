@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Navbar from "../components/partials/Navbar";
 import Footer from "../components/partials/Footer";
 import CardProduct from "../components/product/CardProduct";
 import Button from "../components/partials/Button";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "swiper/css";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Navbar />
@@ -22,7 +27,10 @@ const Home = () => {
 
           {/* Content */}
           <div className="relative z-10 container mx-auto px-4 flex flex-col items-center justify-center h-full text-center text-white">
-            <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold poppins-bold">
+            <h1
+              className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold poppins-bold"
+              data-aos="fade-up"
+            >
               Robustica
             </h1>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl mt-4 assistant-normal">
