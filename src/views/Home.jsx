@@ -125,7 +125,7 @@ const Home = () => {
           <div className="container mx-auto">
             {/* Header Section */}
             <div className="text-center mb-2">
-              <h2 className="text-3xl md:text-5xl font-bold text-gray-900">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
                 Why Choose Us?
               </h2>
             </div>
@@ -133,7 +133,7 @@ const Home = () => {
             {/* Content Section */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center mt-10">
               {/* Left Column */}
-              <div className="space-y-4 px-5">
+              <div className="space-y-8 px-6">
                 {/* Card 1 */}
                 <div className="flex items-start space-x-4">
                   <div>
@@ -205,7 +205,7 @@ const Home = () => {
               </div>
 
               {/* Right Column */}
-              <div className="space-y-8">
+              <div className="space-y-8 px-6">
                 {/* Card 4 */}
                 <div className="flex items-start space-x-4">
                   <div>
