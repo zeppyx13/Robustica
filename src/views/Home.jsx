@@ -1,14 +1,16 @@
 import React from "react";
-import Navbar from "../components/navbar/Navbar";
-import Footer from "../components/navbar/Footer";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Navbar from "../components/partials/Navbar";
+import Footer from "../components/partials/Footer";
+import CardProduct from "../components/product/CardProduct";
+import Button from "../components/partials/Button";
 import "swiper/css";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <main className="flex-grow">
+      <main className="flex-grow h-full">
         {/* Hero Section */}
         <section
           id="hero"
@@ -119,13 +121,73 @@ const Home = () => {
             </Swiper>
           </div>
         </section>
+        {/* Product Section */}
+        <section className="relative bg-center bg-cover bg-no-repeat pt-5 pb-6">
+          <div className="relative z-10 container mx-auto px-4">
+            <div className="text-center mb-12">
+              <p className="text-lg text-gray-600 assistant-normal">
+                Find Your
+              </p>
+              <h1 className="text-3xl md:text-5xl font-bold text-gray-900 poppins-bold">
+                Coffee Beans
+              </h1>
+            </div>
+            <div className="flex flex-col lg:flex-row items-center justify-center space-y-8 lg:space-y-0 lg:space-x-12">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <CardProduct
+                  title="Robusta Pupuan"
+                  description="Ketinggian 1200mdpl, Keasaman Rendah, Tekstur yang tebal dengan aroma woody dan earthy"
+                  image="./Assets/pupuan.jpg"
+                  classs="bg-coklat text-white"
+                />
+                <CardProduct
+                  title="Robusta Pupuan"
+                  description="Ketinggian 1200mdpl, Keasaman Rendah, Tekstur yang tebal dengan aroma woody dan earthy"
+                  image="./Assets/pupuan.jpg"
+                  classs="bg-hijau-tua text-white"
+                />
+                <CardProduct
+                  title="Robusta Pupuan"
+                  description="Ketinggian 1200mdpl, Keasaman Rendah, Tekstur yang tebal dengan aroma woody dan earthy"
+                  image="./Assets/pupuan.jpg"
+                  classs="bg-coklat-tua text-white"
+                />
+                <CardProduct
+                  title="Robusta Pupuan"
+                  description="Ketinggian 1200mdpl, Keasaman Rendah, Tekstur yang tebal dengan aroma woody dan earthy"
+                  image="./Assets/pupuan.jpg"
+                  classs="bg-hijau-tua text-white"
+                />
+                <CardProduct
+                  title="Robusta Pupuan"
+                  description="Ketinggian 1200mdpl, Keasaman Rendah, Tekstur yang tebal dengan aroma woody dan earthy"
+                  image="./Assets/pupuan.jpg"
+                  classs="bg-coklat-tua text-white"
+                />
+                <CardProduct
+                  title="Robusta Pupuan"
+                  description="Ketinggian 1200mdpl, Keasaman Rendah, Tekstur yang tebal dengan aroma woody dan earthy"
+                  image="./Assets/pupuan.jpg"
+                  classs="bg-coklat text-white"
+                />
+              </div>
+            </div>
+            <div className="flex justify-center mt-10">
+              <Button
+                title="View All Products"
+                link="/marketplace"
+                style="bg-coklat text-white"
+              />
+            </div>
+          </div>
+        </section>
 
         {/* Journey Section */}
         <section
           className="relative bg-center bg-cover bg-no-repeat py-16 lg:py-20"
           style={{
             backgroundImage: "url('./Assets/plants.png')",
-            backgroundColor: "#f5f5dc", // Warna krem untuk melengkapi tema latar
+            backgroundColor: "#ede1d1", // Warna krem untuk melengkapi tema latar
           }}
         >
           {/* Overlay */}
@@ -134,8 +196,8 @@ const Home = () => {
           {/* Content */}
           <div className="relative z-10 container mx-auto px-4">
             <div className="text-center mb-12">
-              <p className="text-lg text-gray-600 assistant-normal">
-                Welcome to
+              <p className="text-xl text-gray-600 font-bold assistant-normal">
+                <strong>Discover Our</strong>
               </p>
               <h1 className="text-3xl md:text-5xl font-bold text-gray-900 poppins-bold">
                 Journey
@@ -173,6 +235,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
+            {/* why us */}
           </div>
         </section>
       </main>
