@@ -108,7 +108,11 @@ function Footer() {
           <p>&copy; 2024 Robustica Team. All Rights Reserved.</p>
           <p>
             Created by{" "}
-            <a href="https://gungnanda.com" className="hover:underline">
+            <a
+              href="https://gungnanda.com"
+              target="blanks_"
+              className="hover:underline"
+            >
               Gung Nanda
             </a>
           </p>
