@@ -43,9 +43,11 @@ const Signature = () => {
                   The Pupuan
                 </h3>
                 <p className="text-xs sm:text-sm md:text-lg leading-relaxed assistant-normal">
-                  Pupuan beans are grown in the highlands of Bali, Indonesia.
-                  The beans are grown at an altitude of 1,200 meters, giving
-                  them a unique flavor profile.
+                  Experience the distinctive taste of our signature series
+                  coffee beans from Belatungan village. Grown at an altitude of
+                  700-900mdpl, these beans offer a unique combination of low
+                  acidity, aromatic clove (cengkeh), and a subtle hint of inulin
+                  for a truly unforgettable.
                 </p>
               </div>
             </div>
@@ -64,9 +66,10 @@ const Signature = () => {
                   The Kintamani
                 </h3>
                 <p className="text-xs sm:text-sm md:text-lg leading-relaxed assistant-normal">
-                  Kintamani beans are grown in the highlands of Bali at 1,500
-                  meters above sea level, resulting in a rich and unique flavor
-                  profile.
+                  Indulge in the rich and complex flavors of our Signature
+                  Arabica Kintamani. Grown at 1200mdpl, this exceptional coffee
+                  boasts low acidity, a thick, satisfying texture, captivating
+                  woody and earthy aromas, and a delightful hint of chocolate.
                 </p>
               </div>
             </div>
@@ -85,9 +88,11 @@ const Signature = () => {
                   The Banyuatis
                 </h3>
                 <p className="text-xs sm:text-sm md:text-lg leading-relaxed assistant-normal">
-                  Banyuatis beans are grown in Bali's Banyuatis region at 1,300
-                  meters above sea level, resulting in a rich and full-bodied
-                  coffee.
+                  Experience a Robusta like never before. Our signature blend,
+                  grown at 1200mdpl and processed using a unique method to
+                  achieve surprisingly low acidity, offers a rich, thick
+                  texture, captivating woody and earthy aromas, and a subtle
+                  hint of chocolate.
                 </p>
               </div>
             </div>

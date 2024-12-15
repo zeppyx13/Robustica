@@ -23,38 +23,38 @@ const Product = () => {
         >
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <CardProduct
-              title="Robusta Pupuan"
-              description="Ketinggian 1200mdpl, Keasaman Rendah, Tekstur yang tebal dengan aroma woody dan earthy"
-              image="./Assets/pupuan.jpg"
+              title="The banyuatis"
+              description="Experience a Robusta like never before. Our signature blend, grown at 1200mdpl and processed using a unique method to achieve surprisingly low acidity, offers a rich, thick texture, captivating woody and earthy aromas, and a subtle hint of chocolate. "
+              image="./Assets/banyuatis.jpg"
               classs="bg-coklat text-white"
             />
             <CardProduct
-              title="Robusta Pupuan"
-              description="Ketinggian 1200mdpl, Keasaman Rendah, Tekstur yang tebal dengan aroma woody dan earthy"
-              image="./Assets/pupuan.jpg"
+              title="The Kintamani"
+              description="Indulge in the rich and complex flavors of our Signature Arabica Kintamani. Grown at 1200mdpl, this exceptional coffee boasts low acidity, a thick, satisfying texture, captivating woody and earthy aromas, and a delightful hint of chocolate."
+              image="./Assets/kintamani.jpg"
               classs="bg-hijau-tua text-white"
             />
             <CardProduct
-              title="Robusta Pupuan"
-              description="Ketinggian 1200mdpl, Keasaman Rendah, Tekstur yang tebal dengan aroma woody dan earthy"
+              title="The Pupuan"
+              description="Experience the distinctive taste of our signature series coffee beans from Belatungan village. Grown at an altitude of 700-900mdpl, these beans offer a unique combination of low acidity, aromatic clove (cengkeh), and a subtle hint of inulin for a truly unforgettable cup."
               image="./Assets/pupuan.jpg"
               classs="bg-coklat-tua text-white"
             />
             <CardProduct
-              title="Robusta Pupuan"
-              description="Ketinggian 1200mdpl, Keasaman Rendah, Tekstur yang tebal dengan aroma woody dan earthy"
+              title="Honey beans"
+              description="Discover the exceptional taste of our Arabica Honey beans, cultivated in the high altitudes of Belatungan village (700-900mdpl). These premium beans offer a delightful hint of sweet and fruity flavors, creating a truly unique coffee experience."
               image="./Assets/pupuan.jpg"
               classs="bg-hijau-tua text-white"
             />
             <CardProduct
-              title="Robusta Pupuan"
-              description="Ketinggian 1200mdpl, Keasaman Rendah, Tekstur yang tebal dengan aroma woody dan earthy"
+              title="Luwak beans"
+              description="Experience the luxury of Kintamani Luwak Coffee. Selected coffee beans that are naturally processed, producing a strong, alluring aroma, a mild acidity that is soft on the tongue, and a refreshing touch of fruity flavor. An unforgettable coffee experience. Order your Kintamani Luwak Coffee now and enjoy its specialty!"
               image="./Assets/pupuan.jpg"
               classs="bg-coklat-tua text-white"
             />
             <CardProduct
-              title="Robusta Pupuan"
-              description="Ketinggian 1200mdpl, Keasaman Rendah, Tekstur yang tebal dengan aroma woody dan earthy"
+              title="Bali'em beans"
+              description="the distinctive aroma of black coffee always greets visitors. This coffee is processed with a traditional recipe, producing a bitter taste that is just right and is loved by many Balinese. More than just a drink, this black coffee is part of the tradition and togetherness of the Balinese people. Enjoy a cup of coffee that will make you feel the warmth of the Island of the Gods."
               image="./Assets/pupuan.jpg"
               classs="bg-coklat text-white"
             />
