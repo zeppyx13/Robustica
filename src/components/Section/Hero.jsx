@@ -25,12 +25,11 @@ const Hero = () => {
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl mt-4 assistant-normal">
           The Best Coffee Beans from Bali for the World
         </p>
-        <a
-          href="/marketplace"
-          className="mt-8 bg-coklat text-white py-3 px-8 rounded-lg font-semibold shadow-lg hover:bg-coklat-muda transition duration-300 ease-in-out poppins-semibold text-sm sm:text-base md:text-lg"
-        >
-          Order Now
-        </a>
+        <Button
+          title="Explore Now"
+          link="/marketplace"
+          style="mt-8 bg-coklat text-white py-3 px-8 rounded-lg font-semibold shadow-lg hover:bg-coklat-muda transition duration-300 ease-in-out poppins-semibold text-sm sm:text-base md:text-lg"
+        />
       </div>
     </section>
   );
