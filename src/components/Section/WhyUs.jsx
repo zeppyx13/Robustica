@@ -9,7 +9,7 @@ const WhyUs = () => {
       <div className="container mx-auto">
         {/* Header Section */}
         <div className="text-center mb-2">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 poppins-bold">
             Why Choose Us?
           </h2>
         </div>

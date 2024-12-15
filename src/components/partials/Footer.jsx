@@ -7,10 +7,10 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
-            <h2 className="text-lg font-bold uppercase mb-4">
+            <h2 className="text-lg font-bold uppercase mb-4 poppins-bold">
               About Robustica
             </h2>
-            <p className="text-sm leading-6">
+            <p className="text-md leading-6 assistant-normal">
               Robustica is a coffee shop that provides the best coffee beans
               from Bali for the world. We have been serving the best coffee
               since 2023. Our coffee beans are sourced from the best coffee
@@ -22,8 +22,10 @@ function Footer() {
 
           {/* Quick Links Section */}
           <div>
-            <h2 className="text-lg font-bold uppercase mb-4">Quick Links</h2>
-            <ul className="space-y-2 text-sm">
+            <h2 className="text-lg font-bold uppercase mb-4 poppins-bold">
+              Quick Links
+            </h2>
+            <ul className="space-y-2 text-md assistant-normal">
               <li>
                 <a href="#home" className="hover:underline">
                   Home
@@ -44,10 +46,16 @@ function Footer() {
 
           {/* Our Shop Section */}
           <div>
-            <h2 className="text-lg font-bold uppercase mb-4">Our Shop</h2>
-            <ul className="space-y-2 text-sm">
+            <h2 className="text-lg font-bold uppercase mb-4 poppins-bold">
+              Our Shop
+            </h2>
+            <ul className="space-y-2 text-md">
               <li>
-                <a href="#website" className="hover:underline">
+                <a
+                  href="Robustica.gungnanda.com/shop"
+                  target="blanks_"
+                  className="hover:underline"
+                >
                   Website
                 </a>
               </li>
@@ -57,7 +65,11 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#tokopedia" className="hover:underline">
+                <a
+                  href="#tokopedia"
+                  target="blanks_"
+                  className="hover:underline"
+                >
                   Tokopedia
                 </a>
               </li>
@@ -66,8 +78,10 @@ function Footer() {
 
           {/* Contact Info Section */}
           <div>
-            <h2 className="text-lg font-bold uppercase mb-4">Contact Info</h2>
-            <ul className="space-y-2 text-sm">
+            <h2 className="text-lg font-bold uppercase mb-4 poppins-bold">
+              Contact Info
+            </h2>
+            <ul className="space-y-2 text-md assistant-normal">
               <li>
                 <span className="font-bold">Alamat Kami:</span> <br />
                 Jl. Nangka Utara 1 No. 1, Denpasar, Bali
@@ -104,7 +118,7 @@ function Footer() {
         </div>
 
         {/* Copyright Section */}
-        <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm">
+        <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm assistant-normal">
           <p>&copy; 2024 Robustica Team. All Rights Reserved.</p>
           <p>
             Created by{" "}

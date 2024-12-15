@@ -52,10 +52,10 @@ const Journey = () => {
             data-aos-delay="500"
             data-aos-offset="200"
           >
-            <h2 className="text-2xl md:text-3xl font-bold mb-4">
+            <h2 className="text-2xl md:text-3xl font-bold mb-4 poppins-bold text-gray-900">
               The Pupuan Story
             </h2>
-            <p className="text-sm md:text-lg text-gray-700 leading-relaxed mb-8">
+            <p className="text-sm md:text-lg text-gray-700 leading-relaxed mb-8 assistant-normal">
               Pupuan beans are grown in the highlands of Bali, Indonesia. The
               beans are grown at an altitude of 1,200 meters above sea level,
               which gives them a unique flavor profile. The beans are handpicked
