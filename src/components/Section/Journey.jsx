@@ -1,7 +1,9 @@
 import React from "react";
 import Button from "../partials/Button";
-
+import aos from "aos";
+import "aos/dist/aos.css";
 const Journey = () => {
+  aos.init();
   return (
     <section
       className="relative bg-center bg-cover bg-no-repeat py-16 lg:py-20"
@@ -26,7 +28,11 @@ const Journey = () => {
         {/* Video and Description */}
         <div className="flex flex-col lg:flex-row items-center justify-center space-y-8 lg:space-y-0 lg:space-x-12">
           {/* Video Section */}
-          <div className="video flex-shrink-0 w-full lg:w-1/2">
+          <div
+            className="video flex-shrink-0 w-full lg:w-1/2"
+            data-aos="zoom-out"
+            data-aos-duration="1700"
+          >
             <iframe
               width="100%"
               height="345"
@@ -39,7 +45,13 @@ const Journey = () => {
           </div>
 
           {/* Description Section */}
-          <div className="description text-center lg:text-left max-w-lg lg:w-1/2 bg-white bg-opacity-90 rounded-xl p-6 shadow-lg">
+          <div
+            className="description text-center lg:text-left max-w-lg lg:w-1/2 bg-white bg-opacity-90 rounded-xl p-6 shadow-lg"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+            data-aos-offset="200"
+          >
             <h2 className="text-2xl md:text-3xl font-bold mb-4">
               The Pupuan Story
             </h2>

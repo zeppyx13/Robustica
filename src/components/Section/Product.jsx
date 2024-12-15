@@ -1,7 +1,10 @@
 import reactm from "react";
 import CardProduct from "../product/CardProduct";
 import Button from "../partials/Button";
+import aos from "aos";
+import "aos/dist/aos.css";
 const Product = () => {
+  aos.init();
   return (
     <section className="relative bg-center bg-cover bg-no-repeat pt-5 pb-6">
       <div className="relative z-10 container mx-auto px-4 mb-10">
@@ -11,7 +14,13 @@ const Product = () => {
             Coffee Beans
           </h1>
         </div>
-        <div className="flex flex-col lg:flex-row items-center justify-center space-y-8 lg:space-y-0 lg:space-x-12">
+        <div
+          className="flex flex-col lg:flex-row items-center justify-center space-y-8 lg:space-y-0 lg:space-x-12"
+          data-aos="fade-up"
+          data-aos-duration="1700"
+          data-aos-offset="400"
+          data-aos-delay="300"
+        >
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <CardProduct
               title="Robusta Pupuan"

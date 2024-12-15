@@ -1,8 +1,15 @@
 import React from "react";
+import aos from "aos";
+import "aos/dist/aos.css";
 
 const InfoCard = ({ title, image, description }) => {
+  aos.init();
   return (
-    <div className="flex items-start space-x-4">
+    <div
+      className="flex items-start space-x-4"
+      data-aos="fade-down"
+      data-aos-duration="2000"
+    >
       <div>
         <img src={image} alt={`${title}`} className="w-full h-full" />
       </div>

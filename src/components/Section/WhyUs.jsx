@@ -1,6 +1,9 @@
 import React from "react";
 import InfoCard from "../product/InfoCard";
+import aos from "aos";
+import "aos/dist/aos.css";
 const WhyUs = () => {
+  aos.init();
   return (
     <section className="py-16" id="why-us">
       <div className="container mx-auto">
@@ -38,7 +41,12 @@ const WhyUs = () => {
             />
           </div>
           {/* Center Image */}
-          <div className="flex justify-center px-4">
+          <div
+            className="flex justify-center px-4"
+            data-aos="zoom-out"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+          >
             <img
               src="./Logo/logo-no-background.png"
               alt="Robustica Logo"

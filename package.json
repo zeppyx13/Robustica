@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "boxicons": "^2.1.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.0.2",
-    "swiper": "^11.1.15"
+    "swiper": "^11.1.15",
+    "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
