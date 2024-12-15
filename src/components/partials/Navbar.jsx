@@ -8,7 +8,7 @@ function Navbar() {
       {/* Logo */}
       <div className="flex items-center">
         <img
-          src="../../../public/Logo/logo-no-background.png" // Ganti dengan URL/logo lokal
+          src="./Logo/logo-no-background.png" // Ganti dengan URL/logo lokal
           alt="Robustica Logo"
           className="h-20 w-20"
         />
