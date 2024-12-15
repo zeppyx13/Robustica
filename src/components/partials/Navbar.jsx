@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import boxicons from "boxicons";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -47,60 +48,43 @@ function Navbar() {
       </div>
 
       {/* Navigation Links for Desktop */}
-      <ul
-        className={`hidden lg:flex space-y-4 lg:space-y-0 lg:space-x-8 text-md font-semibold`}
-      >
+      <ul className={`hidden lg:flex space-x-8 text-md font-semibold`}>
         <li>
-          <a
-            href="/"
-            className="block text-red-700 hover:underline px-8 lg:px-0 py-2 lg:py-0"
-          >
+          <a href="/" className="text-red-700 hover:underline">
             HOME
           </a>
         </li>
         <li>
-          <a
-            href="/shop"
-            className="block text-gray-700 hover:underline px-8 lg:px-0 py-2 lg:py-0"
-          >
+          <a href="/shop" className="text-gray-700 hover:underline">
             SHOP
           </a>
         </li>
         <li>
-          <a
-            href="/blog"
-            className="block text-gray-700 hover:underline px-8 lg:px-0 py-2 lg:py-0"
-          >
+          <a href="/blog" className="text-gray-700 hover:underline">
             BLOG
           </a>
         </li>
         <li>
-          <a
-            href="/dropship"
-            className="block text-gray-700 hover:underline px-8 lg:px-0 py-2 lg:py-0"
-          >
+          <a href="/dropship" className="text-gray-700 hover:underline">
             DROPSHIP
           </a>
         </li>
         <li>
-          <a
-            href="/contact"
-            className="block text-gray-700 hover:underline px-8 lg:px-0 py-2 lg:py-0"
-          >
-            KONTAK KAMI
+          <a href="/contact" className="text-gray-700 hover:underline">
+            CONTACT US
           </a>
         </li>
       </ul>
 
       {/* Sidebar Menu for Mobile */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-gray-800 text-white transform transition-transform duration-300 ease-in-out z-50 ${
+        className={`fixed top-0 left-0 h-full w-64 bg-zinc-800 text-white transform transition-transform duration-300 ease-in-out z-50 ${
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         } lg:hidden`}
       >
         <div className="flex items-center justify-between px-4 py-4 border-b border-gray-700">
           <img
-            src="../../../public/Logo/logo-no-background.png" // Ganti dengan URL/logo lokal
+            src="./Logo/logo-no-background.png" // Ganti dengan URL/logo lokal
             alt="Robustica Logo"
             className="h-12 w-12"
           />
@@ -126,29 +110,46 @@ function Navbar() {
           </button>
         </div>
 
-        <ul className="mt-4 space-y-4">
+        {/* Sidebar Links */}
+        <ul className="mt-4 space-y-8">
           <li className="px-4">
-            <a
-              href="/"
-              className="flex items-center space-x-2 text-gray-300 hover:text-white"
-            >
+            <a href="/" className="flex items-center space-x-2 text-white">
+              <box-icon name="home" type="solid" color="#ffffff"></box-icon>
               <span>Home</span>
             </a>
           </li>
           <li className="px-4">
+            <a href="/shop" className="flex items-center space-x-2 text-white">
+              <box-icon name="cart-alt" type="solid" color="#ffffff"></box-icon>
+              <span>Shop</span>
+            </a>
+          </li>
+          <li className="px-4">
+            <a href="/blog" className="flex items-center space-x-2 text-white">
+              <box-icon name="copy-alt" type="solid" color="#ffffff"></box-icon>
+              <span>Blog</span>
+            </a>
+          </li>
+          <li className="px-4">
             <a
-              href="/location"
-              className="flex items-center space-x-2 text-gray-300 hover:text-white"
+              href="/dropship"
+              className="flex items-center space-x-2 text-white"
             >
-              <span>Location</span>
+              <box-icon name="package" type="solid" color="#ffffff"></box-icon>
+              <span>Dropship</span>
             </a>
           </li>
           <li className="px-4">
             <a
               href="/contact"
-              className="flex items-center space-x-2 text-gray-300 hover:text-white"
+              className="flex items-center space-x-2 text-white"
             >
-              <span>Contact</span>
+              <box-icon
+                name="conversation"
+                type="solid"
+                color="#ffffff"
+              ></box-icon>
+              <span>Contact Us</span>
             </a>
           </li>
         </ul>

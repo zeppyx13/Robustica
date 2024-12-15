@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        "robustica-background": "#ede1d1",
+        "robustica-background": "#f5f2ed",
         "robustica-logo": "#6a704c",
         background: "#FFFFF0",
         coklat: "#674636",
