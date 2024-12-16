@@ -46,7 +46,7 @@ const Product = () => {
             {filteredProducts.map((product, index) => (
               <CardProduct
                 key={product.id}
-                title={product.title}
+                title={product.name}
                 description={product.description}
                 image={product.image}
                 classs={backgroundClasses[index % backgroundClasses.length]} // Selang-seling kelas warna
