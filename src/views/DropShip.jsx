@@ -1,18 +1,15 @@
 import React from "react";
 import Navbar from "../components/partials/Navbar";
-import Hero from "../components/Section/Hero";
 import Footer from "../components/partials/Footer";
-import About from "../components/Section/About";
-
-const AboutUs = () => {
+import Dropshiper from "../components/Section/Dropshiper";
+const DropShip = () => {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       <Navbar />
-      <Hero />
-      <About />
+      <Dropshiper />
       <Footer />
     </div>
   );
 };
 
-export default AboutUs;
+export default DropShip;
