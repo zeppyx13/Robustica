@@ -27,18 +27,28 @@ function Footer() {
             </h2>
             <ul className="space-y-2 text-md assistant-normal">
               <li>
-                <a href="#home" className="hover:underline">
+                <a href="./" className="hover:underline">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#blog" className="hover:underline">
-                  Blog
+                <a href="./shop" className="hover:underline">
+                  Shop
                 </a>
               </li>
               <li>
-                <a href="#dropship" className="hover:underline">
+                <a href="./about" className="hover:underline">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="./dropship" className="hover:underline">
                   Dropship
+                </a>
+              </li>
+              <li>
+                <a href="./contact" className="hover:underline">
+                  Contact Us
                 </a>
               </li>
             </ul>
@@ -52,7 +62,7 @@ function Footer() {
             <ul className="space-y-2 text-md">
               <li>
                 <a
-                  href="Robustica.gungnanda.com/shop"
+                  href="https://Robustica.gungnanda.com"
                   target="blanks_"
                   className="hover:underline"
                 >
