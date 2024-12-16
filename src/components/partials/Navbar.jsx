@@ -13,11 +13,11 @@ function Navbar() {
   const getLinkStyle = (path, isMobile = false) => {
     if (activeLink === path) {
       return isMobile
-        ? "text-hijau-tua" // Style di mobile
-        : "text-hijau-tua underline"; // Style di desktop
+        ? "text-red-600" // Style di mobile
+        : "text-red-600 "; // Style di desktop
     }
     return isMobile
-      ? "text-white hover:text-hijau"
+      ? "text-white hover:text-gray-400"
       : "text-gray-700 hover:underline";
   };
 
