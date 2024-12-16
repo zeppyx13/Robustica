@@ -60,8 +60,8 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a href="/blog" className="text-gray-700 hover:underline">
-            BLOG
+          <a href="/about" className="text-gray-700 hover:underline">
+            ABOUT US
           </a>
         </li>
         <li>
@@ -113,21 +113,28 @@ function Navbar() {
         {/* Sidebar Links */}
         <ul className="mt-4 space-y-8">
           <li className="px-4">
-            <a href="/" className="flex items-center space-x-2 text-white">
-              <box-icon name="home" type="solid" color="#ffffff"></box-icon>
-              <span>Home</span>
+            <a
+              href="/"
+              className="flex items-center space-x-2 text-hijau-tua hover:text-hijau"
+            >
+              <box-icon
+                name="home"
+                type="solid"
+                color="currentColor"
+              ></box-icon>
+              <span>HOME</span>
             </a>
           </li>
           <li className="px-4">
             <a href="/shop" className="flex items-center space-x-2 text-white">
               <box-icon name="cart-alt" type="solid" color="#ffffff"></box-icon>
-              <span>Shop</span>
+              <span>SHOP</span>
             </a>
           </li>
           <li className="px-4">
-            <a href="/blog" className="flex items-center space-x-2 text-white">
+            <a href="/about" className="flex items-center space-x-2 text-white">
               <box-icon name="copy-alt" type="solid" color="#ffffff"></box-icon>
-              <span>Blog</span>
+              <span> ABOUT US</span>
             </a>
           </li>
           <li className="px-4">
@@ -136,7 +143,7 @@ function Navbar() {
               className="flex items-center space-x-2 text-white"
             >
               <box-icon name="package" type="solid" color="#ffffff"></box-icon>
-              <span>Dropship</span>
+              <span>DROPSHIP</span>
             </a>
           </li>
           <li className="px-4">
@@ -149,7 +156,7 @@ function Navbar() {
                 type="solid"
                 color="#ffffff"
               ></box-icon>
-              <span>Contact Us</span>
+              <span>CONTACT US</span>
             </a>
           </li>
         </ul>
