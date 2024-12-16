@@ -53,6 +53,15 @@ const ListProduct = [
       "The distinctive aroma of black coffee always greets visitors. This coffee is processed with a traditional recipe, producing a bitter taste that is just right and is loved by many Balinese. More than just a drink, this black coffee is part of the tradition and togetherness of the Balinese people.",
     image: "./Assets/pupuan.jpg",
   },
+  {
+    id: 7,
+    name: "Grounded Bali'em beans",
+    category: "powder",
+    price: "Rp90.000", // Harga bisa disesuaikan
+    description:
+      "The distinctive aroma of black coffee always greets visitors. This coffee is processed with a traditional recipe, producing a bitter taste that is just right and is loved by many Balinese. More than just a drink, this black coffee is part of the tradition and togetherness of the Balinese people.",
+    image: "./Assets/pupuan.jpg",
+  },
 ];
 
 export default ListProduct;
