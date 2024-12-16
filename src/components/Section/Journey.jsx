@@ -10,6 +10,7 @@ const Journey = () => {
       style={{
         backgroundImage: "url('./Assets/plants.png')",
       }}
+      id="journey"
     >
       {/* Overlay */}
       <div className="absolute inset-0 bg-background bg-opacity-70"></div>

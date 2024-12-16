@@ -6,7 +6,10 @@ import "aos/dist/aos.css";
 const Product = () => {
   aos.init();
   return (
-    <section className="relative bg-center bg-cover bg-no-repeat pt-5 pb-6">
+    <section
+      className="relative bg-center bg-cover bg-no-repeat pt-5 pb-6"
+      id="products"
+    >
       <div className="relative z-10 container mx-auto px-4 mb-10">
         <div className="text-center mb-12">
           <p className="text-lg text-gray-600 assistant-normal">Find Your</p>
@@ -63,7 +66,7 @@ const Product = () => {
         <div className="flex justify-center mt-10">
           <Button
             title="View All Products"
-            link="/marketplace"
+            link="/shop"
             style="bg-coklat text-white"
           />
         </div>

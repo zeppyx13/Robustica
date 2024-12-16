@@ -7,7 +7,7 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 const Signature = () => {
   return (
-    <section className="py-16" id="Signature">
+    <section className="py-16" id="signature">
       <div className="text-center mb-12">
         <p className="text-lg text-gray-600 assistant-normal">Explore Our</p>
         <h1 className="text-3xl md:text-5xl font-bold text-gray-900 poppins-bold">
