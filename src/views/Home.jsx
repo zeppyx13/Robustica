@@ -11,30 +11,17 @@ import Hero from "../components/Section/Hero";
 const Home = () => {
   return (
     <>
-      <Navbar />
-      <main className="flex-grow w-full max-w-full overflow-x-hidden">
-        {/* Hero Section */}
-        <div className="overflow-hidden">
+      <div className="overflow-hidden flex flex-col min-h-screen">
+        <Navbar />
+        <main className="flex-grow w-full max-w-full overflow-x-hidden">
           <Hero />
-        </div>
-        {/* Signature Section */}
-        <div className="overflow-hidden">
           <Signature />
-        </div>
-        {/* Why Us Section */}
-        <div className="overflow-hidden">
           <WhyUs />
-        </div>
-        {/* Product Section */}
-        <div className="overflow-hidden">
           <Product />
-        </div>
-        {/* Journey Section */}
-        <div className="overflow-hidden">
           <Journey />
-        </div>
-      </main>
-      <Footer />
+        </main>
+        <Footer />
+      </div>
     </>
   );
 };
