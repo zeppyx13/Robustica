@@ -18,7 +18,9 @@ const Product = () => {
     "bg-coklat text-white",
     "bg-hijau-tua text-white",
     "bg-coklat-tua text-white",
+    "bg-hijau-tua text-white",
     "bg-coklat-tua text-white",
+    "bg-coklat text-white",
   ];
 
   return (

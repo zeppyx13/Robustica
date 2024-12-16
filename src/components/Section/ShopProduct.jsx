@@ -5,11 +5,11 @@ const ShopProduct = () => {
   return (
     <section className="relative flex-1 bg-gray-50 py-12">
       <div className="container mx-auto px-6 lg:px-20">
-        <h1 className="text-4xl font-bold text-gray-800 text-center mb-8">
+        <h1 className="text-4xl font-bold text-gray-800 text-center mb-12">
           Our Product
         </h1>
         <div className="subproduct">
-          <h2 className="text-4xl font-bold text-gray-800  mb-8">Beans</h2>
+          <h2 className="text-4xl font-bold text-gray-800 pb-16">Beans</h2>
 
           {/* Product Grid */}
           <div className="flex flex-wrap justify-center gap-8">
@@ -28,6 +28,9 @@ const ShopProduct = () => {
                     <h2 className="text-xl font-bold poppins-bold text-gray-800 mb-2">
                       {product.name}
                     </h2>
+                    <h3 className="text-md font-bold poppins-medium text-gray-800 mb-2">
+                      {product.weight}
+                    </h3>
                     <p className="text-gray-500 text-md assistant-normal text-left mb-3">
                       {product.description}
                     </p>
@@ -44,10 +47,12 @@ const ShopProduct = () => {
           </div>
         </div>
         <div className="subproduct">
-          <h2 className="text-4xl font-bold text-gray-800 py-24">Grounded</h2>
+          <h2 className="text-4xl font-bold text-gray-800 pt-24 pb-16">
+            Grounded
+          </h2>
 
           {/* Product Grid */}
-          <div className="flex flex-wrap justify-center gap-8">
+          <div className="flex flex-wrap justify-center gap-8 mb-5">
             {ListProduct.filter((product) => product.category === "powder").map(
               (product) => (
                 <div
@@ -63,6 +68,9 @@ const ShopProduct = () => {
                     <h2 className="text-xl font-bold poppins-bold text-gray-800 mb-2">
                       {product.name}
                     </h2>
+                    <h3 className="text-md font-bold poppins-medium text-gray-800 mb-2">
+                      {product.weight}
+                    </h3>
                     <p className="text-gray-500 text-md assistant-normal text-left mb-3">
                       {product.description}
                     </p>
