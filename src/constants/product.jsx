@@ -1,11 +1,11 @@
 const ListProduct = [
   {
     id: 1,
-    name: "The banyuatis",
+    name: "The Banyuatis",
     category: "beans",
-    price: "Rp130.000", // Harga bisa disesuaikan
+    price: "Rp130.000",
     description:
-      "Experience a Robusta like never before. Our signature blend, grown at 1200mdpl and processed using a unique method to achieve surprisingly low acidity, offers a rich, thick texture, captivating woody and earthy aromas, and a subtle hint of chocolate.",
+      "Discover the unparalleled richness of Banyuatis Robusta beans. Grown at 1,200 meters above sea level and meticulously processed, this coffee delivers a smooth texture with surprisingly low acidity. Its captivating woody and earthy notes are perfectly balanced by a subtle hint of chocolate, making for an exceptional coffee experience.",
     image: "./Assets/banyuatis.jpg",
     weight: "1000g",
   },
@@ -13,9 +13,9 @@ const ListProduct = [
     id: 2,
     name: "The Kintamani",
     category: "beans",
-    price: "Rp170.000", // Harga bisa disesuaikan
+    price: "Rp170.000",
     description:
-      "Indulge in the rich and complex flavors of our Signature Arabica Kintamani. Grown at 1200mdpl, this exceptional coffee boasts low acidity, a thick, satisfying texture, captivating woody and earthy aromas, and a delightful hint of chocolate.",
+      "Indulge in the refined elegance of Kintamani Arabica. Grown at 1,200 meters above sea level, this signature coffee is renowned for its low acidity and smooth, velvety texture. Its aromatic profile offers a delightful blend of woody and earthy notes, with a lingering hint of chocolate to complete the experience.",
     image: "./Assets/kintamani.jpg",
     weight: "1000g",
   },
@@ -23,69 +23,69 @@ const ListProduct = [
     id: 3,
     name: "The Pupuan",
     category: "beans",
-    price: "Rp150.000", // Harga bisa disesuaikan
+    price: "Rp150.000",
     description:
-      "Experience the distinctive taste of our signature series coffee beans from Belatungan village. Grown at an altitude of 700-900mdpl, these beans offer a unique combination of low acidity, aromatic clove (cengkeh), and a subtle hint of inulin for a truly unforgettable cup.",
+      "Savor the unique flavors of Pupuan coffee, harvested in Belatungan village at 700-900 meters above sea level. This signature blend is characterized by its low acidity and a rich aroma of clove, complemented by a delicate touch of inulin, delivering an extraordinary and unforgettable cup of coffee.",
     image: "./Assets/pupuan.jpg",
     weight: "1000g",
   },
   {
     id: 4,
-    name: "Honey beans",
+    name: "Honey Beans",
     category: "beans",
-    price: "Rp180.000", // Harga bisa disesuaikan
+    price: "Rp180.000",
     description:
-      "Discover the exceptional taste of our Arabica Honey beans, cultivated in the high altitudes of Belatungan village (700-900mdpl). These premium beans offer a delightful hint of sweet and fruity flavors, creating a truly unique coffee experience.",
+      "Enjoy the exquisite taste of Arabica Honey beans, grown in the highlands of Belatungan village at 700-900 meters above sea level. These premium beans captivate with their sweet, fruity undertones and smooth texture, offering a uniquely vibrant and satisfying coffee experience.",
     image: "./Assets/honey.png",
     weight: "1000g",
   },
   {
     id: 5,
-    name: "Luwak beans",
+    name: "Luwak Beans",
     category: "beans",
-    price: "Rp250.000", // Harga bisa disesuaikan
+    price: "Rp250.000",
     description:
-      "Experience the luxury of Kintamani Luwak Coffee. Selected coffee beans that are naturally processed, producing a strong, alluring aroma, a mild acidity that is soft on the tongue, and a refreshing touch of fruity flavor. An unforgettable coffee experience.",
+      "Experience the luxurious flavor of Kintamani Luwak Coffee. Handpicked and naturally processed, these exceptional beans produce a captivating aroma, mild acidity, and a refreshing fruity finish. Indulge in the smooth and unforgettable elegance of this specialty coffee.",
     image: "./Assets/Luwak.jpg",
     weight: "1000g",
   },
   {
     id: 6,
-    name: "Bali'em beans",
+    name: "Bali'em Beans",
     category: "beans",
-    price: "Rp100.000", // Harga bisa disesuaikan
+    price: "Rp100.000",
     description:
-      "The distinctive aroma of black coffee always greets visitors. This coffee is processed with a traditional recipe, producing a bitter taste that is just right and is loved by many Balinese. More than just a drink, this black coffee is part of the tradition and togetherness of the Balinese people.",
+      "Immerse yourself in the rich tradition of Bali'em black coffee. Crafted using time-honored techniques, this coffee delivers a perfectly balanced bitterness and bold aroma. More than just a beverage, it embodies the warmth and togetherness of Balinese culture.",
     image: "./Assets/bali.jpg",
     weight: "1000g",
   },
   {
     id: 7,
-    name: "Grounded the Pupuan beans",
+    name: "Ground Pupuan Beans",
     category: "powder",
-    price: "Rp115.000", // Harga bisa disesuaikan
+    price: "Rp115.000",
     description:
-      "Grind Pupuan beans are processed with a traditional recipe, producing a bitter taste that is just right and is loved by many Balinese. More than",
+      "Enjoy the bold and robust flavor of Ground Pupuan coffee. Processed using traditional methods, this finely ground coffee delivers a perfectly balanced bitterness and a rich aroma, making it a beloved choice among coffee enthusiasts.",
     image: "./Assets/bali.jpg",
     weight: "1000g",
   },
   {
     id: 8,
-    name: "Grounded Bali'em beans",
+    name: "Ground Bali'em Beans",
     category: "powder",
-    price: "Rp160.000", // Harga bisa disesuaikan
+    price: "Rp160.000",
     description:
-      "Grind Bali'em beans are processed with a traditional recipe, producing a bitter taste that is just right and is loved by many Balinese. More than",
+      "Savor the authentic taste of Ground Bali'em coffee. Prepared using time-honored recipes, this coffee features a smooth, balanced bitterness and an aromatic profile that highlights the essence of Balinese tradition.",
     image: "./Assets/pupuan.jpg",
     weight: "1000g",
   },
   {
     id: 9,
-    name: "Grounded Kinatamani beans",
+    name: "Ground Kintamani Beans",
     category: "powder",
-    price: "Rp180.000", // Harga bisa disesuaikan
+    price: "Rp180.000",
     description:
-      "Grind Kintamanin arabica beans are processed with a traditional recipe, producing a bitter taste that is just right and is loved by many Balinese. More than",
+      "Experience the rich and refined flavors of Ground Kintamani Arabica. Carefully processed to preserve its natural essence, this coffee offers a smooth, full-bodied profile with mild acidity and delightful chocolate undertones.",
     image: "./Assets/kintamani.jpg",
     weight: "1000g",
   },

@@ -9,7 +9,9 @@ const ShopProduct = () => {
           Our Product
         </h1>
         <div className="subproduct">
-          <h2 className="text-4xl font-bold text-gray-800 pb-16">Beans</h2>
+          <h2 className="text-4xl font-bold text-gray-800 pb-16">
+            Coffee Beans
+          </h2>
           {/* Product Grid */}
           <div className="flex flex-wrap justify-center gap-8">
             {ListProduct.filter((product) => product.category === "beans").map(
@@ -28,7 +30,7 @@ const ShopProduct = () => {
         </div>
         <div className="subproduct">
           <h2 className="text-4xl font-bold text-gray-800 pt-24 pb-16">
-            Grounded
+            Ground Coffee
           </h2>
           {/* Product Grid */}
           <div className="flex flex-wrap justify-center gap-8 mb-5">
