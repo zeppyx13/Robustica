@@ -1,6 +1,13 @@
 import React from "react";
+import { useCart } from "../context/CartContext";
 
 const ProductList = ({ Id, Image, Name, Weight, Description, Price }) => {
+  const { addToCart } = useCart();
+
+  const handleAddToCart = () => {
+    addToCart({ Id, Image, Name, Weight, Description, Price });
+  };
+
   return (
     <div
       key={Id}
@@ -22,7 +29,10 @@ const ProductList = ({ Id, Image, Name, Weight, Description, Price }) => {
           {Description}
         </p>
         <p className="text-red-600 font-semibold mb-4 mt-auto">{Price}</p>
-        <button className="w-full bg-coklat hover:bg-coklat-muda text-white py-2 rounded-lg transition-colors duration-300 mt-4">
+        <button
+          onClick={handleAddToCart}
+          className="w-full bg-coklat hover:bg-coklat-muda text-white py-2 rounded-lg transition-colors duration-300 mt-4"
+        >
           Add to Cart
         </button>
       </div>
